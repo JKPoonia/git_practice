@@ -68,4 +68,39 @@ print(f'welcome to the part', dinner_invitaion[1])
 
 dinner_invitaion=['modi','rahul','biden', 'tulsi', 'rishi']
 
+#working with list
+#looping throw entire list
+Magicians= ['alice', 'jai', 'kishan', 'carolina']
+for magician in Magicians:
+    print(magician)
+# also keep in mind when writing your own for loop that you can choose any name you want for the tempory varibale  that
+# is accosaiteed with each values in the list. however its usefull to choose meaningfull name that represent a single iteam of list
+# for cat in cats:
+# for dog in dogs:
+# for item in list_of_items:
+# doing more work within a loop
+
+magicians=['alice', 'jai', 'kishan', 'carolina']
+for magician in magicians:
+    print(f'{magician.title()}, that was a great show ')
+
+magicians=['alice', 'jai', 'kishan', 'carolina']
+for magician in magicians:
+    print(f'{magician.title()}, that was a great show ')
+    print(f'i cant wait to see your next show!! ',magician)
+
+# doing something after a for loop
+
+magicians=['rahul','mohit','ronit','jai']
+x=1
+print('1')
+for magician in magicians:
+
+
+    print(f'good job friend !', magician)
+    print(f'we are eager to see your next eposide! ', magician)
+    x = x + 1
+    print(x)
+print('thankyou all of you friends for such a good show')
+
 
