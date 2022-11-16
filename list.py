@@ -103,4 +103,50 @@ for magician in magicians:
     print(x)
 print('thankyou all of you friends for such a good show')
 
+#4.1
+fav_pizza=['magrita', 'corn', 'peporoni']
+for pizza in fav_pizza:
+    print(pizza)
+for pizza in fav_pizza:
+    print(f'i like {pizza} pizza')
+print(f'i like {pizza}')
+print(f'i like chilli flex and cock')
+print(f'i really lpve pizza!')
 
+animals=['lion','tiger', 'lipord', 'cat']
+for animal in animals:
+    print(animal)
+    print(f'{animal} live in jungle')
+print(f'all these animals are carnivors')
+
+for value in range(1,6):
+    print(value)
+for value in range(1,7):
+    print(value)
+number=list(range(1,6))
+print(number)
+
+squares=[]
+for value in range(1,6):
+    square=value**2
+    squares.append(square)
+print(squares)
+
+squares=[]
+for value in range(1,11):
+    squares.append(value**2)
+print(squares)
+print(min(squares))
+print(max(squares))
+print(sum(squares))
+squares=[value**2 for value in range(1,33)]
+print(squares)
+
+#4.3
+for value in range(1, 21):
+    print(value)
+
+value=[]
+for va in range(1,100):
+    value.append(va)
+print(value)
