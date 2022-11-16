@@ -150,3 +150,9 @@ value=[]
 for va in range(1,100):
     value.append(va)
 print(value)
+#4.6
+odd_number=[]
+for value in range(1,21):
+    if (value%2!=0):
+       odd_number.append(value)
+print(odd_number)
