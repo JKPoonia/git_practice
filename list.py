@@ -156,3 +156,16 @@ for value in range(1,21):
     if (value%2!=0):
        odd_number.append(value)
 print(odd_number)
+#4.7]
+multiple_of_three=[]
+for number in range(1,31):
+    if (number%3==0):
+        multiple_of_three.append(number)
+print(multiple_of_three)
+#or
+mult_of_3=list(range(3,31,3))
+print(mult_of_3)
+#or
+
+print(mult_of_3=list(range(3,31,3)))
+print(list(range(3,31,3)))
