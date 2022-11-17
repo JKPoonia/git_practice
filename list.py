@@ -169,3 +169,8 @@ print(mult_of_3)
 
 print(mult_of_3=list(range(3,31,3)))
 print(list(range(3,31,3)))
+#4-10.
+fav_pizza=['magrita', 'corn', 'peporoni','pan', 'mango']
+print(f'first 3 items in the list are',fav_pizza[:3])
+print(f'three items from the middle of the list are', fav_pizza[1:3])
+print(f'last 3 items{fav_pizza [-3:-1]}')
