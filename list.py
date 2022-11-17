@@ -174,3 +174,42 @@ fav_pizza=['magrita', 'corn', 'peporoni','pan', 'mango']
 print(f'first 3 items in the list are',fav_pizza[:3])
 print(f'three items from the middle of the list are', fav_pizza[1:3])
 print(f'last 3 items{fav_pizza [-3:-1]}')
+# 4.11
+my_pizza = ['magrita', 'peporoni', 'chilli', 'paper']
+my_friends_pizza = my_pizza[:]
+my_pizza.append('mango pizza')
+my_friends_pizza.append('orange pizza')
+print(f'my fav pizzas are ')
+for mypizza in my_pizza:
+    print(f'-{mypizza}')
+
+for myfriens in my_friends_pizza:
+    print(f'\n my friends fav pizza is ', myfriens)
+# 4-13
+basic_food = ('samosa', 'kasori', 'sangri ki sabgi', 'rabri', 'khata or kadi')
+
+for meal in basic_food:
+    print(meal)
+basic_food = ('samosa', 'kasori', 'pineapple')
+for meal in basic_food:
+    print(meal)
+# chep 5, if statement
+cars = ['audi', 'bmw', 'totya', 'mahindra']
+for car in cars:
+    if car == 'bmw':
+        print(car.upper())
+    else:
+        print(car.title())
+
+fruit='mango'
+if fruit!='banana':
+    print('hii')
+banneded_users=['andrive', 'carolina','david']
+user='marie'
+if user not in banneded_users:
+    print(f'{user.title()}, you can post you response if you wish')
+'andrive' in banneded_users
+
+age1=12
+age2=39
+age1>=12 and age2==21
