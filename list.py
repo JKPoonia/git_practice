@@ -213,3 +213,63 @@ if user not in banneded_users:
 age1=12
 age2=39
 age1>=12 and age2==21
+cars=['audi','bmw', 'subaru', 'toyota']
+
+for car in cars:
+  if car=='audi':
+    print('audi is there')
+#5.3
+aliean_color=['green']
+for alieancolor in aliean_color:
+    if alieancolor=='green':
+        print('player just earned 5 ppints')
+for alieancolor in aliean_color:
+    if alieancolor=='pink': # program terminate here because condition fullfiled
+        print('player just earned 5 ppints')
+    else:
+        print('you earned 10 points')
+aliean_color='green'
+if aliean_color=='red':
+    print('player earned 5 points')
+elif aliean_color =='yellow':
+    print('player just earned 10 points')
+elif aliean_color=='red':
+    print('player just earned 15 points')
+#5.6
+age=12
+if age<2:
+    print('person is baby')
+elif 2<age<4:
+    print('person is toddler')
+elif 4<age<13:
+    print('person is kid')
+elif 12<age<20:
+    print('person is teenager')
+elif 20<age<65:
+    print('person is adult')
+elif age>=65:
+    print('person is elder')
+favriot_fruit=['mango','apple','banana']
+for fruit in favriot_fruit:
+
+    if fruit=='apple':
+        print(f'i really like {fruit }')
+#5-8
+usernames=['admin', 'jai', 'kishan', 'prakesh', 'ramesh']
+for username in usernames:
+    if username=='admin':
+        print(f'hello, {username}, would you like to see a status report ')
+    elif username!='admin':
+        print(f'hello, {username}, thankyou for loging for again')
+
+#####
+usernames=['admin', 'jai', 'kishan', 'prakesh', 'ramesh']
+userin=input('please enter your name-')
+for username in usernames:
+    if username=='admin' and userin==username:
+        print(f'hello, {username}, would you like to see a status report ')
+    elif username!='admin'and userin==username:
+        print(f'hello, {username}, thankyou for loging for again')
+    else:
+        print('sorry we cant move fruther')
+        break
