@@ -273,3 +273,22 @@ for username in usernames:
     else:
         print('sorry we cant move fruther')
         break
+#5.9
+empytlist=[]
+if empytlist:
+ for  empl in empytlist:
+    if username=='admin':
+        print(f'hello, {username}, would you like to see a status report ')
+    elif username!='admin':
+        print(f'hello, {username}, thankyou for loging for again')
+else:
+        print('we need users')
+
+old_users=['jk', 'ram','rohit','rakesh', 'rahul', 'POONIA']
+new_user=['jk', 'ram', 'poonia', 'sourabh', ]
+for olduser in old_users:
+    for newuser in new_user:
+        if olduser==newuser:
+            print('you have to enter new name')
+        else:
+            print('good to go')
