@@ -30,4 +30,12 @@ car['color']='white'
 print(f"the color of car is changed to ={car['color']}")
 
 alien_0={'x_position ':0, 'y_posiion':25, 'speed':'medium'}
-print(alien_0[])
+print('original position=0')
+if alien_0['speed']=='slow':
+    x_increment=1
+elif alien_0['speed']=='medium':
+    x_increment=2
+else:
+    x_increment=3
+alien_0['x_position ']=alien_0['x_position ']+x_increment
+print(f"new positon : {alien_0['x_position ']}")
