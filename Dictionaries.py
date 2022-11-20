@@ -39,3 +39,35 @@ else:
     x_increment=3
 alien_0['x_position ']=alien_0['x_position ']+x_increment
 print(f"new positon : {alien_0['x_position ']}")
+
+
+students={'name':'jaikishan', 'age':12}
+print(students['name'])
+jk=students['name']
+print(jk)
+friends={'name':'op', 'age':14}
+print(friends)
+#update friends
+friends['name']='kartik'
+print(friends)
+#adding new key value
+friends['addresh of kartik']='jodhpur'
+print(friends)
+fruits={}
+fruits['king of fruits']='mango'
+fruits['test of mango']='sweet'
+print(fruits)
+print(f"this is the ling of fruits= {fruits['king of fruits']}")
+#removing ke -value pair from the dict
+del fruits['test of mango']
+print(fruits)
+
+#Creating dictionary by taking input from users
+x=1
+while x==1:
+
+    user_input={}
+    nam=input('plse enter ur name ')
+    name=input('plse enter ur age ')
+    a=user_input[nam]=name
+    print(user_input)
