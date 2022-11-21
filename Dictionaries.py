@@ -71,3 +71,38 @@ while x==1:
     name=input('plse enter ur age ')
     a=user_input[nam]=name
     print(user_input)
+fruits={'mango':'king fruit', 'banana':'best fruit', 'papya':'sweet fruit'}
+print(fruits)
+coping=fruits.copy()
+print(coping)
+clear=fruits.clear()
+print(fruits)
+laptops=['dell', 'lenovo','microsoft' ]
+os=['windows', 'android', 'macos']
+#6.1
+person1={'name':'jk', 'age': 12, 'add':'barmer'}
+print(person1['name'].title())
+print(person1['add'].title())
+#6.2==6.3
+peoples_favno={'om':'one','jk':'two', 'k':'four', 'ahg':'five'}
+print(f"{peoples_favno['om']} om fav no")
+for name, num in peoples_favno.items():
+    print(f'{name.title()} fav number {num.title()}')
+favorite_language={
+    'jen':'python',
+    'sarah': 'c',
+    'edward':'ruby',
+    'phile':'python'
+    }
+friends=['phile','sarh']
+if name in friends:
+       language=favorite_language[name].title()
+       print(f"\t {name.title()}, i see you loves {language}")
+
+for language in set(favorite_language.values()):
+    print(language.title())
+#6.4
+glossary={'cpu':'is centerl processing unit', 'radio':'wire less voice transfer', 'tv':'telivion'}
+
+for name in favorite_language.keys():
+    print(name.title())
