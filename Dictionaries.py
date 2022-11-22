@@ -106,3 +106,17 @@ glossary={'cpu':'is centerl processing unit', 'radio':'wire less voice transfer'
 
 for name in favorite_language.keys():
     print(name.title())
+#6.5
+rivers= {'Ganga': 'india', 'nile':'egypt', 'ámazon':'brizil'}
+for river in rivers.keys():
+    for countrie in rivers.values():
+        print(f"{river} flows from{countrie}")
+        break
+for river in rivers.keys():
+    print(rivers)
+    break
+for countrie in rivers.values():
+    print(countrie)
+for river, countries in rivers.items():
+    print(rivers)
+    print(countries)
