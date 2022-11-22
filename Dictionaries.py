@@ -120,3 +120,57 @@ for countrie in rivers.values():
 for river, countries in rivers.items():
     print(rivers)
     print(countries)
+#6.6
+fav_lang={'jk':'python', 'ram': 'c', 'shyam':'java'}
+peoples=['krishan','jk','Ram']
+for people in peoples:
+    if people in fav_lang.keys():
+        print(f"thankyou bhai for pools {people}")
+    else:
+        print('plse take pools')
+#6.8
+dict1={'lion':'jk',
+       'tiger':'kishan',
+       'goat': 'poonia'
+}
+dict2={'cat':'kat',
+       'dog':'om',
+       'sheep':'kartik'
+       }
+pets=[dict1,dict2]
+for pet in pets:
+	print(pet)
+#6.9
+fav_places={'jk':['ny', 'jaipur', 'jodhpur'],
+            'ram':['india', 'asia'],
+            'poonia':['rajasthan', 'barmer', 'jodhpur'],
+            }
+for name, places in fav_places.items():
+    print(f'{name} fav place is / are')
+    print(places)
+    for place in places:
+       print(places)
+#6.10
+fav_num={'alix':[2,4,6],
+         'allen': [1,5,7],
+         'robin':[4,8,99]}
+for name, number in fav_num.items():
+    print(f'fav number of {name} is {number}')
+    #or
+    for num in number:
+        print(num)
+cities={
+        'new delhi':
+            {'ís the capital of india': 'delhi to nd',
+             'population': 10000,
+             'famous food': 'dal bati churma'},
+        'jaipur':{'famous for ':'for street food',
+                  'popualtion ': '10000',
+                  'temples': 'hindu temples'}
+        }
+for city , info in cities.items():
+    print(city)
+    print(info)
+    for j, k in info.items():
+        print(j)
+        print(k)
