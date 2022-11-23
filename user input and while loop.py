@@ -35,6 +35,7 @@ if int(usrip)%10==0:
     print('yes number is multiple of 10')
 else:
     print('not a multiple of 10')
+    
 #7.4 we added some changes as we like in que for random experiment with code
 toppings=[]
 Active =True
@@ -55,6 +56,7 @@ for topp in toppings:
 
     else:
            print(topp)
+            
 #7.5
 ticket=int(input('plse enter ur age'))
 active=True
