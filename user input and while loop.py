@@ -85,3 +85,14 @@ fruits=['mango', 'banana','orange', 'mango', 'mango']
 while 'mango' in fruits:
     fruits.remove('mango')
 print(fruits)
+#7.10
+places={}
+while True:
+    name=input('plse tell me ur name ')
+    place=input('where will you want to go ')
+    places[name]=place
+    yes_no=input('\n would you like to add another response yes/no ')
+    if yes_no== 'no':
+        break
+for name, place in places.items():
+    print(f"{name} would like to go {place}")
