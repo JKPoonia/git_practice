@@ -1,4 +1,4 @@
-''''prompt='Tell me numbr'
+prompt='Tell me numbr'
 active=True
 while active:
     message= float(input(prompt))
@@ -13,8 +13,8 @@ while active:
         print('odd')
     else:
         print(message)
-'''''
-#y =int(input('enter no'))
+
+y =int(input('enter no'))
 x=1
 while x<12:
     x=x+1
