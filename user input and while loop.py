@@ -66,3 +66,22 @@ while active:
     else:
         print('ticket price is $12')
     break
+#7.8
+sandwish_orders=['veg', 'banana', 'green','green']
+finished_sandwish=[]
+while sandwish_orders:
+
+   for sandwish in sandwish_orders:
+    print(f"i made your {sandwish} sandwishes")
+
+    xyz=sandwish_orders.pop()
+    finished_sandwish.append(xyz)
+
+print(f"your sandwish are {finished_sandwish}")
+print(set(finished_sandwish))
+
+#7.9
+fruits=['mango', 'banana','orange', 'mango', 'mango']
+while 'mango' in fruits:
+    fruits.remove('mango')
+print(fruits)
