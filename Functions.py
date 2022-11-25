@@ -43,3 +43,10 @@ def describe_pet(animal_type, pet_name):
 describe_pet('Dog', 'Tommy')
 greet_users()  # Calling again above call for test
 display_message()
+
+ef describe_pet (animal_type, pet_name):
+    print(f'I have a {animal_type}')
+    print(f"My {animal_type} name is {pet_name}")
+
+
+describe_pet(animal_type='hamester', pet_name='harry')
