@@ -50,3 +50,10 @@ ef describe_pet (animal_type, pet_name):
 
 
 describe_pet(animal_type='hamester', pet_name='harry')
+#Default values
+def describe_pet (pet_name, animal_type='dog'):
+    print(f'i have a {animal_type} ')
+    print(f'my {animal_type} name is {pet_name}')
+
+
+describe_pet(pet_name='willie')
