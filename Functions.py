@@ -57,3 +57,30 @@ def describe_pet (pet_name, animal_type='dog'):
 
 
 describe_pet(pet_name='willie')
+
+describe_pet('willie')
+describe_pet(pet_name='harry', animal_type='hamster')
+#equivalent functions calls
+#those functions who has same output
+describe_pet('willie')
+describe_pet(pet_name='willie')
+
+#FOR HAMSTER
+describe_pet('harry','hamster')
+describe_pet(pet_name='harry', animal_type='hamster')
+describe_pet(animal_type='hamster', pet_name='harry')
+
+#its doesnt matter which calling style we use, as long as function call produce the output we want, just use style which
+# we find easiest t understand.
+#8.3
+def make_shirt(size, text):
+    print(f"the size of shirt-{size}, and printed message on it-{text}")
+
+
+make_shirt(14,'keep working hard')
+
+#8.4
+def make_shirt(size=12, message='I love python'):
+    print(f"the size of shirt is{size} and the message printed on it is {message}")
+
+make_shirt()
