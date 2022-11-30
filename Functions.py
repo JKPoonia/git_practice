@@ -84,3 +84,13 @@ def make_shirt(size=12, message='I love python'):
     print(f"the size of shirt is{size} and the message printed on it is {message}")
 
 make_shirt()
+#8.5
+def describe_city(city, country='india'):
+    print(f"{city} in the {country}")
+describe_city('barmer')
+#Here we gone to describe the return function
+def get_formated_name(first_name, last_name):
+    full_name=f"{first_name} {last_name}"
+    return full_name.title()
+musician=get_formated_name('jimi', 'hendrix')
+print(musician)
