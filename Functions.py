@@ -94,3 +94,39 @@ def get_formated_name(first_name, last_name):
     return full_name.title()
 musician=get_formated_name('jimi', 'hendrix')
 print(musician)
+#8.9
+lista=['series ' , 'short ' , 'message']
+def show_message():
+
+    for item in lista:
+        print(item)
+
+
+show_message()
+#8.10
+lista=['series ' , 'short ' , 'message']
+listb=[ ]
+def show_message():
+
+    for item in lista:
+        print(item)
+        lista.pop()
+        listb.append(item)
+    print(listb)
+    print(lista)
+
+show_message()
+#8.12
+def make_sandwish(number, *items):
+    print(f"making {number} sandwish and toppings")
+    for item in items:
+        print(f"{item}")
+make_sandwish(2, 'mango', 'apple', 'rice')
+make_sandwish(3,'totmato', 'garlic','cabbage')
+#8.13
+def build_profile(frist, last):
+    name=f"{frist} {last}"
+    return name
+print(build_profile('jai', 'kishan'))
+final_name=build_profile('jai', 'kishan')
+print(final_name)
